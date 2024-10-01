@@ -17,4 +17,4 @@ Then, we need a way to launch the EdgeTranslate PDF Reader automatically when we
 
 So I wrote a C++ program to launch the browser with that link.
 
-(To Be Continued)
+(Under Development and Testing. To Be Continued ... )
