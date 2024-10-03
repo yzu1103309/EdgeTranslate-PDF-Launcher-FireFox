@@ -5,6 +5,7 @@ Allow Firefox to open pdf links in EdgeTranslate extention, just like Chrome and
 ## Notice
 
 You will need [Firefox Developer Edition](https://www.mozilla.org/zh-TW/firefox/developer/) to make this work properly. (Due to the xpinstall.signatures.required restriction)
+
 Or you can consider using other Firefox-based browsers (e.g. [zen-browser](https://github.com/zen-browser/desktop)), which removes this restriction.
 
 ## How did I achieve this
@@ -22,6 +23,6 @@ Then, we need a way to launch the EdgeTranslate PDF Reader automatically when we
 
 So I wrote a C++ program that can launch the browser with that link, taking `argv[1]` as the pdf link to open.
 
-We also need a mechanism to trigger the launcher program when we click on some pdf links. After trying various methods, I chose [Open in IE] extention to achieve this.
+We also need a mechanism to trigger the launcher program when we click on some pdf links. After trying various methods, I chose [Open in IE](https://addons.mozilla.org/en-US/firefox/addon/open-in-internet-explorer/) extention to achieve this.
 
 (Under Development and Testing. To Be Continued ... )
