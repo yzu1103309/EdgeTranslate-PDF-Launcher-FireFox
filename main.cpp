@@ -13,9 +13,9 @@ int main(int argc, char * argv[])
 
 
     /* !!! Please replace this with YOUR unique EdgeTranslate ID !!! */
-    string extention_id("f7ad2c1b-c6e3-403a-ad26-fc25734caaa6")
+    string extention_id("f7ad2c1b-c6e3-403a-ad26-fc25734caaa6");
     /* Replace this if you're not using original firefox (e.g. zen) */
-    string app("firefox")
+    string app("firefox");
 
 
     string prefix(" moz-extension://");
