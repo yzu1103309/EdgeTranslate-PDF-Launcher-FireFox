@@ -11,11 +11,17 @@ int main(int argc, char * argv[])
         exit(EXIT_FAILURE);
     }
 
+
+    /* !!! Please replace this with YOUR unique EdgeTranslate ID !!! */
+    string extention_id("f7ad2c1b-c6e3-403a-ad26-fc25734caaa6")
+    /* Replace this if you're not using original firefox (e.g. zen) */
+    string app("firefox")
+
+
+    string prefix(" moz-extension://");
     string url(argv[1]);
-    string prefix("moz-extension://c390cee7-9ce9-4d7a-ba86-3a5c7b6d6715/pdf/viewer.html?file=");
-    url = prefix + url;
-    // cout << url << endl;
-    string command = string("firefox ")+url;
+    url = prefix + extention_id + "/pdf/viewer.html?file=" + url;
+    string command = app + url;
     system(command.c_str());
 
     return 0;
