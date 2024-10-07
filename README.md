@@ -10,7 +10,7 @@ Or you can consider using other Firefox-based browsers (e.g. [zen-browser](https
 
 ## How did I achieve this
 
-The difference between EdgeTranslate extention for Chrome and the one for Firefox is that the Chrome version contains a folder named `/pdf/`, which contains essential files for opening pdf links with the extention
+The difference between EdgeTranslate extention for Chrome and the one for Firefox is that the Chrome version contains a folder named `/pdf/`, which includes essential files for opening pdf links with the extention
 
 So firstly, I modded the extention .xpi file for Firefox (it's actually a zip archive), porting the `/pdf/` folder from the Chrome version to it.
 
