@@ -8,6 +8,10 @@ You will need [Firefox Developer Edition](https://www.mozilla.org/zh-TW/firefox/
 
 Or you can consider using other Firefox-based browsers (e.g. [zen-browser](https://github.com/zen-browser/desktop)), which removes this restriction.
 
+Go to "about:config" and change these settings:
+
+<img width="951" height="78" alt="圖片" src="https://github.com/user-attachments/assets/b6be8790-e1b1-4cbb-b60a-fca7469f5f2a" />
+
 ## How did I achieve this
 
 The difference between EdgeTranslate extention for Chrome and the one for Firefox is that the Chrome version contains a folder named `/pdf/`, which includes essential files for opening pdf links with the extention
@@ -24,10 +28,6 @@ Then, we need a way to launch the EdgeTranslate PDF Reader automatically when we
 So I wrote a C++ program that can launch the browser with that link, taking `argv[1]` as the pdf link to open.
 
 We also need a mechanism to trigger the launcher program when we click on some pdf links. After trying various methods, I chose [Open in IE](https://addons.mozilla.org/en-US/firefox/addon/open-in-internet-explorer/) extention to achieve this.
-
-
-Go to [about:config](about:config) and change settings:
-<img width="951" height="78" alt="圖片" src="https://github.com/user-attachments/assets/b6be8790-e1b1-4cbb-b60a-fca7469f5f2a" />
 
 
 (Under Development and Testing. To Be Continued ... )
