@@ -25,4 +25,9 @@ So I wrote a C++ program that can launch the browser with that link, taking `arg
 
 We also need a mechanism to trigger the launcher program when we click on some pdf links. After trying various methods, I chose [Open in IE](https://addons.mozilla.org/en-US/firefox/addon/open-in-internet-explorer/) extention to achieve this.
 
+
+Go to [about:config](about:config) and change settings:
+<img width="951" height="78" alt="圖片" src="https://github.com/user-attachments/assets/b6be8790-e1b1-4cbb-b60a-fca7469f5f2a" />
+
+
 (Under Development and Testing. To Be Continued ... )
